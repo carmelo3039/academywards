@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oscar 2017 - O Melhor Filme</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>🏆 Academy Awards</h1>
+      <p>Categoria: Melhor Filme</p>
+    </header>
+
+    <main class="cards">
+      <div class="card erro">
+        <span class="tag">Anúncio Incorreto</span>
+        <h2 id="bestMovie"></h2>
+        <p class="descricao">Este foi o nome inicialmente anunciado...</p>
+      </div>
+
+      <div class="seta">➜</div>
+
+      <div class="card correto">
+        <span class="tag tag-real">Vencedor Real</span>
+        <h2 id="realBestMovie"></h2>
+        <p class="descricao">Após a correção no envelope</p>
+      </div>
+    </main>
+
+    <div class="acao">
+      <button id="btnCorrigir">Revelar Vencedor Real</button>
+    </div>
+
+    <div class="console-area">
+      <h3>Console</h3>
+      <div id="consoleOutput" class="console-box"></div>
+    </div>
+
+    <footer class="footer">
+      <p>Exercício 14 - JavaScript String Manipulation</p>
+    </footer>
+  </div>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
